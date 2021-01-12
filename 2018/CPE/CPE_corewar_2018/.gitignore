@@ -1,0 +1,48 @@
+##############
+#  NAME BIN  #
+##############
+
+corewar_binaries
+champions
+*.cor
+*.s
+program
+corewar
+
+###############
+#     MY      #
+
+.idea
+.vscode
+perf.data
+
+###############
+#    FLAGS    #
+
+*.o
+*.~
+*.#
+*.a
+*.gch
+a.out
+.idea
+*.class
+*.dll
+*.exe
+
+############
+# Packages #
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+######################
+# Logs and databases #
+
+*.log

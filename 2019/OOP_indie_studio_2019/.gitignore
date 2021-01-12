@@ -1,0 +1,27 @@
+# never push binaries or object files
+*.a
+*.so
+*.o
+cmake-build-debug/*
+bomberman
+vgcore.*
+lib/SFML-2.5.1/*
+
+# environment files
+.idea
+.idea/*
+.vscode
+.vscode/*
+.vs
+.vs/*
+lib/SFML-2.5.1/*
+
+# bootstrap
+bootstrap/*
+
+# for visual studio commit bug (windows)
+*.opendb
+
+# ignoring cmake project generation
+build/
+build

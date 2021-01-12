@@ -1,0 +1,4 @@
+
+#!/bin/bash
+sed -n "2~3p" | sed 's/:.*//gi' | rev | sort -r | head -n "$MY_LINE1" | tail -n "$MY_LINE2" | tr '\n' ',' | sed 's/,/, /gi' | sed 's/,\([^,]*\)$/.\n\1/'
+exit 0

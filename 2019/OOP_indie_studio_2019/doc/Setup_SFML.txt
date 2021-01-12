@@ -1,0 +1,13 @@
+How to setup the SFML Library for Indie Studio
+
+1. Download the library
+Download the library using the official website(https://www.sfml-dev.org/download/sfml/2.5.1/)
+Please make sure to download the version 2.5.1
+and the package corresponding to your operating system
+
+2. Move the library into the project
+Now extract the library into the {PROJECT_ROOT}/lib directory
+Please make sure that the name of the extracted directory is SFML-2.5.1
+and rename it so the project will find the sources correctly
+
+3. Now you should be set and done to use cmake and build the project

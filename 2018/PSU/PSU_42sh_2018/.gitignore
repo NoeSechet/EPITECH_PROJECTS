@@ -1,0 +1,49 @@
+##############
+#  NAME BIN  #
+##############
+
+42sh
+program
+
+###############
+#     MY      #
+
+.idea
+.vscode
+perf.data
+
+###############
+#    FLAGS    #
+
+*.o
+*.~
+*.#
+*.a
+*.gch
+a.out
+.idea
+*.class
+*.dll
+*.exe
+
+############
+# Packages #
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+######################
+# Logs and databases #
+
+*.log
+
+##############
+# test_files #
+
+test.c

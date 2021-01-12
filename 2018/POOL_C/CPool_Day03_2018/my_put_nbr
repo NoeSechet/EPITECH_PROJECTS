@@ -1,0 +1,25 @@
+/*
+//EPITECH PROJECT, 2018
+//my_put_nbr
+//File description:
+//displays a number
+*/
+
+void my_putchar(char c)
+
+int my_put_nbr(int nb)
+{
+    if (nb < 0)
+    {
+    nb = -nb;
+    my_pushchar ('-');
+    }
+    if (nb > 9)
+    {
+       my_put_nbr(nbr / 10);
+       my_put_nbr(nbr % 10);
+    } else {
+     my_put_char(nb + '0');
+    }
+    return (0)
+}
